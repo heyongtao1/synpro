@@ -24,6 +24,10 @@ public:
     {
         routinecenter->routine_poll();
     }
+    void close()
+    {
+        routinecenter->close();
+    }
 public:
     ~Synpro()
     {
